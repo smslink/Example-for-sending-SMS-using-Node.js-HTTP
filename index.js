@@ -1,5 +1,12 @@
 var http = require("https");
 
+/* 
+
+  Get your SMS Gateway Connection ID and Password from 
+  https://www.smslink.ro/get-api-key/
+
+*/
+
 var options = {
 	"method": "GET",
 	"hostname": "secure.smslink.ro",
