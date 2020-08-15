@@ -11,7 +11,7 @@ var options = {
 	"method": "GET",
 	"hostname": "secure.smslink.ro",
 	"port": null,
-	"path": "/sms/gateway/communicate/index.php?to=07xyzzzzzz&message=MyMessage&connection_id=MyConnectionID&password=MyConnectionPassword",
+	"path": "/sms/gateway/communicate/index.php?connection_id=MyConnectionID&password=MyConnectionPassword&to=07xyzzzzzz&message=MyMessage",
 	"headers": {
 		"useQueryString": true
 	}
